@@ -26,7 +26,7 @@ public class HomePageTest extends Base {
 		driver.get(getProperty("baseUrl"));
 	}
 	
-	@Test(enabled=false)
+	@Test()
 	void verifyHomePageMenuTest() {
 		List<String> HomePageMenu=new ArrayList<String>();
 		HomePageMenu.add("WOMEN");

@@ -39,18 +39,6 @@ public class LoginTest extends Base{
 				userFirstName+ " " +userLastName, "User not loggned in successfully");
 	}
 	
-	@Test()
-	// 1. valid email, invalid password, 2. invalid email, valid password 3. both invalid
-	void verifyLoginWithInvalidUser() throws IOException {
-		homePage.loginButton().click();
-		loginPage.login(getProperty("user1"),getProperty("user1Password"));
-		
-	}
-	
-	
-	
-	
-	
 	
 	@AfterClass
 	void afterClass() {

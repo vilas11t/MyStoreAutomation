@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25035" started-at="2022-09-03T22:03:35 IST" finished-at="2022-09-03T22:04:01 IST">
+  <suite name="Default suite" duration-ms="15877" started-at="2022-09-03T23:21:13 IST" finished-at="2022-09-03T23:21:29 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25035" started-at="2022-09-03T22:03:35 IST" finished-at="2022-09-03T22:04:01 IST">
-      <class name="E_Commerce.MyStore.AddProductToCartTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:E_Commerce.MyStore.AddProductToCartTest@47ef968d]" name="beforeClass" is-config="true" duration-ms="9712" started-at="2022-09-03T22:03:36 IST" finished-at="2022-09-03T22:03:45 IST">
+    <test name="Default test" duration-ms="15877" started-at="2022-09-03T23:21:13 IST" finished-at="2022-09-03T23:21:29 IST">
+      <class name="E_Commerce.MyStore.LoginTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:E_Commerce.MyStore.LoginTest@3dd4520b]" name="beforeClass" is-config="true" duration-ms="8731" started-at="2022-09-03T23:21:13 IST" finished-at="2022-09-03T23:21:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="verifyAddProductToCart()[pri:0, instance:E_Commerce.MyStore.AddProductToCartTest@47ef968d]" name="verifyAddProductToCart" duration-ms="15285" started-at="2022-09-03T22:03:45 IST" finished-at="2022-09-03T22:04:01 IST">
+        <test-method status="PASS" signature="verifyLoginWithValidUser()[pri:0, instance:E_Commerce.MyStore.LoginTest@3dd4520b]" name="verifyLoginWithValidUser" duration-ms="7065" started-at="2022-09-03T23:21:22 IST" finished-at="2022-09-03T23:21:29 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddProductToCart -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:E_Commerce.MyStore.AddProductToCartTest@47ef968d]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-09-03T22:04:01 IST" finished-at="2022-09-03T22:04:01 IST">
+        </test-method> <!-- verifyLoginWithValidUser -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:E_Commerce.MyStore.LoginTest@3dd4520b]" name="afterClass" is-config="true" duration-ms="51" started-at="2022-09-03T23:21:29 IST" finished-at="2022-09-03T23:21:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- E_Commerce.MyStore.AddProductToCartTest -->
+      </class> <!-- E_Commerce.MyStore.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -73,7 +73,7 @@ public class NewRegistrationTest extends Base{
 	
 	@AfterClass
 	void afterClass() {
-		//driver.close();
+		driver.close();
 	}
 	
 }
