@@ -54,7 +54,7 @@ public class EndToEndProductOrderTest extends Base {
 	}
 	
 	@Test()
-	void verifyAddProductToCart() throws IOException {
+	void verifyEndToEndProductOrderTest() throws IOException {
 			homePage.loginButton().click();
 			loginPage.login(getProperty("user1"),getProperty("user1Password"));
 			waiForElementVisibility(5,signedInCustomerHomepage.userNameText());
