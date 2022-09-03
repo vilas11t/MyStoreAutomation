@@ -19,6 +19,28 @@ public class LoginPage {
 	public WebElement createAccountButton() {
 		return driver.findElement(By.xpath("//button[@id='SubmitCreate']"));
 	}
+	
+	public WebElement loginEmailId() {
+		return driver.findElement(By.xpath("//input[@id='email']"));
+	}
+	
+	public WebElement password() {
+		return driver.findElement(By.xpath("//input[@id='passwd']"));
+	}
+	
+	public WebElement signInSubmitButton() {
+		return driver.findElement(By.xpath("//button[@id='SubmitLogin']"));
+	}
+	
+	
+	public void login(String userEmail,String password) {
+		loginEmailId().sendKeys(userEmail);
+		password().sendKeys(password);
+		signInSubmitButton().click();
+	}
+
+	
+	
 
 	
 	

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2584" started-at="2022-09-01T21:48:00 IST" finished-at="2022-09-01T21:48:02 IST">
+  <suite name="Default suite" duration-ms="25035" started-at="2022-09-03T22:03:35 IST" finished-at="2022-09-03T22:04:01 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2584" started-at="2022-09-01T21:48:00 IST" finished-at="2022-09-01T21:48:02 IST">
-      <class name="E_Commerce.MyStore.HomePageTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:E_Commerce.MyStore.HomePageTest@7fac631b]" name="beforeClass" is-config="true" duration-ms="2296" started-at="2022-09-01T21:48:00 IST" finished-at="2022-09-01T21:48:02 IST">
+    <test name="Default test" duration-ms="25035" started-at="2022-09-03T22:03:35 IST" finished-at="2022-09-03T22:04:01 IST">
+      <class name="E_Commerce.MyStore.AddProductToCartTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:E_Commerce.MyStore.AddProductToCartTest@47ef968d]" name="beforeClass" is-config="true" duration-ms="9712" started-at="2022-09-03T22:03:36 IST" finished-at="2022-09-03T22:03:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="t1()[pri:0, instance:E_Commerce.MyStore.HomePageTest@7fac631b]" name="t1" duration-ms="15" started-at="2022-09-01T21:48:02 IST" finished-at="2022-09-01T21:48:02 IST">
+        <test-method status="PASS" signature="verifyAddProductToCart()[pri:0, instance:E_Commerce.MyStore.AddProductToCartTest@47ef968d]" name="verifyAddProductToCart" duration-ms="15285" started-at="2022-09-03T22:03:45 IST" finished-at="2022-09-03T22:04:01 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- t1 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:E_Commerce.MyStore.HomePageTest@7fac631b]" name="afterClass" is-config="true" duration-ms="198" started-at="2022-09-01T21:48:02 IST" finished-at="2022-09-01T21:48:02 IST">
+        </test-method> <!-- verifyAddProductToCart -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:E_Commerce.MyStore.AddProductToCartTest@47ef968d]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-09-03T22:04:01 IST" finished-at="2022-09-03T22:04:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- E_Commerce.MyStore.HomePageTest -->
+      </class> <!-- E_Commerce.MyStore.AddProductToCartTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

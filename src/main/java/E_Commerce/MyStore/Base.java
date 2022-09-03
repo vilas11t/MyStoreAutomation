@@ -8,7 +8,11 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Base {
 	
@@ -16,6 +20,7 @@ public static WebDriver driver;
 public static File file;
 public static FileInputStream fis;
 public static Properties pos;
+public static WebDriverWait webDriverWait;
 	
 	public static WebDriver driverInitialize(){
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
@@ -32,6 +37,13 @@ public static Properties pos;
 		pos.load(fis);
 		return pos.getProperty(propertyName);
 	}
+	
+	public void waiForElementVisibility(int maxTimeOutInSeconds, WebElement element) {
+		webDriverWait=new WebDriverWait(driver, maxTimeOutInSeconds);
+		webDriverWait.until(ExpectedConditions.visibilityOf(element));
+	}
+	
+	
 
 	
 	

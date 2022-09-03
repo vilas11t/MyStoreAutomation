@@ -23,4 +23,15 @@ public class HomePage {
 		return driver.findElements(By.xpath("//div[@id='block_top_menu']/ul[1]/li/a"));
 	}
 	
+	public WebElement searchBox() {
+		return driver.findElement(By.id("search_query_top"));
+	}
+	
+	public WebElement loginButton() {
+		return driver.findElement(By.xpath("//a[@class='login']"));
+	}
+	
+	
+	
+	
 }
